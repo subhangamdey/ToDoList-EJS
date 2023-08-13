@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+body{
+    background-color: #635985;
+}
+.today{
+    margin-top: 0px;
+    
+}
+.todo{
+    margin-bottom: 0px;
+    
+}
+.header{
+    width: 50%;
+    margin-left: 43%;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: SemiBold 600;
+    color: #18122B;
+}
+.date{
+    font-family: 'Playfair Display', serif;
+    color: #D27685;
+    background-color: #9E4784;
+    width : 25%;
+    margin-left: 38%;
+    text-align: center;
+    padding: 0.5px;
+    border-radius: 20px;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+#list-item{
+    height : 3rem;
+    background-color: #A3C7D6;
+    width : 25%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border : 3px solid black;
+}
+::placeholder { 
+    color: black;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1.5rem;
+  }
+
+input[type="text"] {
+    font-size:25px;
+  }
+
+.add-button {
+    height: 48px;
+    width: 48px;
+    background-color: #2C3333;
+    border-radius: 50%;
+    border : 0;
+    margin : 15px;
+    color : #A3C7D6;
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+.line-container{
+    width : 50%;
+    margin: auto;
+    background-color: #443C68;
+    border-radius: 20px;
+    height: auto;
+    border: 2px solid black;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.text{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1.5rem;
+}
+.checkbox{
+    margin: 5px;
+}
+
+
+
