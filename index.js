@@ -31,11 +31,11 @@ app.get("/",(req,res) =>{
     })
 })
 
-app.post("/submit",(req,res) =>{
+app.post("/",(req,res) =>{
   inputValue = req.body["note"];
   inputArray.push(inputValue);
   var yo = inputArray.length
-  res.render("submit.ejs",{
+  res.render("index.ejs",{
     weekDay : currentWeek,
     day: currentDay,
     month: currentmonth,
@@ -44,7 +44,7 @@ app.post("/submit",(req,res) =>{
     len : yo,
     array : inputArray
   })
-  
+  res.redirect("/");
 })
 
  app.listen(port, ()=>{
